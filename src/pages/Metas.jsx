@@ -25,8 +25,7 @@ export const Metas = () => {
                 <Aside></Aside>
             </Flex>
             {loading && <SpinnerLoading></SpinnerLoading>}
-
-
+            
             {data &&
                 <>
                     <Flex direction="column" align="center">

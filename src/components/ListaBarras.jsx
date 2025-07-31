@@ -17,6 +17,7 @@ export const ListaBarras = ({ data, elemento }) => {
       { name: "JORGE GUALDRON", value: 0, odooUser: "JORGE GUALDRON" },
       { name: "MAYERLY ORTIZ", value: 0, odooUser: "MAYERLY ANDREA ORTIZ" },
       { name: "OSCAR DANIEL", value: 0, odooUser: "OSCAR DANIEL RIOS LOAIZA" },
+      { name : "SANTIAGO LONDOÑO", value: 0, odooUser : "SANTIAGO LONDOÑO"},
       { name: "YESID SIERRA", value: 0, odooUser: "YESID FERNANDO SIERRA SIERRA" },
       { name: "LADY RIOS", value: 0, odooUser: "LADY RIOS" },
       { name: "OFICINA", value: 0, odooUser: "OFICINA" },

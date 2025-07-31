@@ -1,19 +1,13 @@
 import React from 'react'
-import { useNavigate } from 'react-router';
-
 import { Button, CloseButton, Drawer, Portal } from "@chakra-ui/react"
 import { MdOutlineSegment } from "react-icons/md";
 import { GoGoal } from "react-icons/go";
 import { IoCalendarOutline, IoStatsChartOutline } from "react-icons/io5";
 import { GrGithub } from "react-icons/gr";
 
+import { Link } from 'react-router';
 export const Aside = () => {
 
-    let navigate = useNavigate();
-
-    function handleClick(url) {
-        navigate(`/${url}`);
-    }
     return (
         <Drawer.Root>
             <Drawer.Trigger asChild>
@@ -29,13 +23,19 @@ export const Aside = () => {
                             <Drawer.Title>Menu</Drawer.Title>
                         </Drawer.Header>
                         <Drawer.Body>
-                            <Button variant="ghost" onClick={()=>{handleClick("dashboard")}}><IoStatsChartOutline /> Principal</Button>
-                            <Button variant="ghost" onClick={()=>{handleClick("metas")}}><GoGoal /> Metas Mensuales</Button>
+                            <Link to="/">
+                                <Button variant="ghost"><IoStatsChartOutline /> Principal</Button>
+                            </Link>
+                            <Link to="/metas">
+                                <Button variant="ghost"><GoGoal /> Metas Mensuales</Button>
+                            </Link>
                             <br />
                             <br />
                             <br />
                             <p>En desarrollo...</p>
-                            <Button variant="ghost" disabled><IoCalendarOutline /> Comparativo anual</Button>
+                            <Link to="/anual">
+                                <Button variant="ghost" disabled><IoCalendarOutline /> Comparativo anual</Button>
+                            </Link>
                         </Drawer.Body>
                         <Drawer.Footer>
                             <p>Desarrollado por Sabogal </p>

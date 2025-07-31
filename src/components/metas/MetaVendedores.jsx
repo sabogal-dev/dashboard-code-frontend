@@ -26,6 +26,28 @@ export const MetaVendedores = ({ data }) => {
                 oh: 0,
                 forzanny: 0
             }
+        }, {
+            vendedor: "SANTIAGO LONDOÑO",
+            meta: {
+                dinero: 55000000,
+                premium: 165,
+                petite: 150,
+                "code line": 170,
+                "code sport": 160,
+                tonelly: 110,
+                oh: 210,
+                forzanny: 1
+            },
+            logrado: {
+                dinero: 0,
+                premium: 0,
+                petite: 0,
+                "code line": 0,
+                "code sport": 0,
+                tonelly: 0,
+                oh: 0,
+                forzanny: 0
+            }
         },
         {
             vendedor: "JORGE GUALDRON",
@@ -157,7 +179,7 @@ export const MetaVendedores = ({ data }) => {
         <Stack gap={10}>
             {vendedoresMetas.map((vendedor) => (
                 <Stack key={vendedor.vendedor}>
-                    <Separator/>
+                    <Separator />
                     <Heading>{vendedor.vendedor}</Heading>
                     <Table.Root size="sm" variant="outline">
                         <Table.Header>

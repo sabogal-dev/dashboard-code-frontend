@@ -49,6 +49,7 @@ export const Filtros = ({ onVendedor, onFecha, onFechaFinal, mesActual }) => {
                         <NativeSelect.Field name="vendedor" onChange={onChangeForm}>
                             <option value="">TODOS</option>
                             <option value="JORGE+GUALDRON">JORGE GUALDRON</option>
+                            <option value="SANTIAGO+LONDOÑO">SANTIAGO LONDOÑO</option>
                             <option value="OSCAR+DANIEL+RIOS+LOAIZA">OSCAR DANIEL</option>
                             <option value="YESID+FERNANDO+SIERRA+SIERRA">YESID SIERRA</option>
                             <option value="MAYERLY+ANDREA+ORTIZ">MAYERLY ANDREA</option>
