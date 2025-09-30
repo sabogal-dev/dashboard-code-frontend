@@ -1,11 +1,11 @@
 import { useState } from "react"
 
-import { Tablacategorias } from "./components/TablaCategorias"
+import { Tablacategorias } from "./components/dashboardCharts/TablaCategorias"
 import { Filtros } from "./components/Filtros"
-import { GraficoBar } from "./components/GraficoBar"
+import { GraficoBar } from "./components/dashboardCharts/GraficoBar"
 import { UsuarioAvatar } from "./components/UsuarioAvatar"
-import { ListaBarras } from "./components/ListaBarras"
-import { InfoTarjetas } from "./components/InfoTarjetas"
+import { ListaBarras } from "./components/dashboardCharts/ListaBarras"
+import { InfoTarjetas } from "./components/dashboardCharts/InfoTarjetas"
 import { Aside } from "./components/Aside"
 import { SpinnerLoading } from "./components/SpinnerLoading"
 
@@ -28,7 +28,6 @@ export const Dashboard = () => {
 
     //mostrar Filtros
     const [filtros, setfiltros] = useState(false)
-
 
     const ocultarFiltro = () => {
         setfiltros(!filtros)

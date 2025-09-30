@@ -1,6 +1,6 @@
 import { BarList, useChart } from "@chakra-ui/charts"
 import { useState, useEffect } from "react"
-import { useFetch } from "../hooks/useFetch"
+import { useFetch } from "../../hooks/useFetch"
 
 export const ListaBarras = ({ data, elemento }) => {
 

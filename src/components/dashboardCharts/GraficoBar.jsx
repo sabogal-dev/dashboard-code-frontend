@@ -1,6 +1,6 @@
 import { Chart, useChart } from "@chakra-ui/charts"
 import { Bar, BarChart, CartesianGrid, Tooltip, XAxis, YAxis } from "recharts"
-import { useFetch } from "../hooks/useFetch"
+import { useFetch } from "../../hooks/useFetch"
 import { useEffect, useState } from "react"
 import { format, addMonth, diffMonths } from "@formkit/tempo"
 
