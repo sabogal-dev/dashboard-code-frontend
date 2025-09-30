@@ -28,8 +28,8 @@ El dashboard permite analizar métricas de ventas y rendimiento a través de gr�
 Clona el repositorio:
 
 ```bash
-git clone https://github.com/usuario/dashboard-code.git
-cd dashboard-code
+git clone https://github.com/sabogal-dev/dashboard-code-frontend
+cd dashboard-code-frontend
 ```
 
 Instala las dependencias:
@@ -39,12 +39,6 @@ npm install
 ```
 
 ### Variables de entorno
-
-Debes crear un archivo `.env` en la raíz del proyecto con las variables de conexión al backend de **Code Optikal**:
-
-```
-VITE_API_URL=https://tu-api-codeoptikal.com
-```
 
 ⚠️ **Nota:** Las credenciales y configuraciones específicas del backend **no están incluidas** en este repositorio por motivos de seguridad.
 
@@ -83,5 +77,8 @@ npm run lint
 
 ## 🔐 Licencia
 
-Este proyecto es de uso **privado y exclusivo** de la empresa propietaria (Code Optikal).
-Está prohibida su copia, modificación o distribución sin autorización expresa.
+Copyright (c) 2025 CODEOPTIKAL SAS
+
+Todos los derechos reservados.
+
+Este código es propiedad privada y no puede ser utilizado, copiado, modificado ni distribuido sin autorización expresa por escrito del titular.
